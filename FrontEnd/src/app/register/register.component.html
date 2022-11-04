@@ -1,0 +1,67 @@
+<mat-toolbar color="primary">
+    <button mat-stroked-button (click)="navToHome()">Home</button>
+    <button mat-stroked-button class="f">Back</button>
+    </mat-toolbar>
+    <div class="a">
+    <form class="register-form" (submit)="registerfun()" [formGroup]="RegistryForm"><br><br>
+        <div>
+            <span>
+                Registry Form
+            </span>
+        </div>
+        <div>
+            <mat-form-field class="example-full-width" appearance="fill">
+                
+                <input type="text" matInput placeholder="User Name" class="inputs" formControlName="userName">
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field class="example-full-width" appearance="fill">
+                <input type="text" matInput placeholder="Ex.  xyz00@abc.com" class="inputs" formControlName="email">
+            </mat-form-field>
+            <mat-error *ngIf="RegistryForm.controls['email'].hasError('required')">Email is Mandatory !</mat-error>
+            <mat-error *ngIf="RegistryForm.controls['email'].hasError('email')">Email Format is incorrect please check again !</mat-error>
+        </div>
+        <div>
+            <mat-form-field class="example-full-width" appearance="fill">
+                <input type="password" matInput placeholder="Ex. Test123@Now" class="inputs" formControlName="password">
+            </mat-form-field>
+            <mat-error *ngIf="RegistryForm.controls['password'].hasError('required')">Password is Mandatory !</mat-error>
+            <mat-error *ngIf="RegistryForm.controls['password'].hasError('pattern')">Password is too Weak! try: Test@13nOw</mat-error>
+        </div>
+        <div>
+            <mat-form-field class="example-full-width" appearance="fill">
+                <input type="text" matInput placeholder="Ex. +91 7783672422" class="inputs" formControlName="phoneNo">
+            </mat-form-field>
+            <!--<div class="ErrMsg" *ngIf="RegistryForm.controls['phoneNo'].hasError('required')">Password is Mandatory !</div>-->
+            <mat-error *ngIf="RegistryForm.controls['phoneNo'].hasError('pattern')">phone No format is incorrect! Please try again!</mat-error>
+        </div>
+        <div><mat-divider></mat-divider></div>
+        <div><h1>Address Details:</h1></div>
+        <div formArrayName="address">
+            <div *ngFor="let item of add.controls; let i=index" [formGroupName]="i">
+          
+              <!-- homeNo -->
+          
+              <mat-form-field class="example-full-width" appearance="fill">
+                  <input id="homeNo" type="number" matInput placeholder="Enter House No" formControlName="homeNo">
+              </mat-form-field><br>
+          
+              <!-- roadName -->
+              <mat-form-field class="example-full-width" appearance="fill">
+                  <input id="roadName" type="text" matInput placeholder="Enter Road Name" formControlName="roadName">
+              </mat-form-field><br>
+          
+              <!-- city -->
+              <mat-form-field class="example-full-width" appearance="fill">
+                  <input id="city" type="text" matInput placeholder="Enter City" formControlName="city">
+              </mat-form-field><br>
+          
+              <!-- pincode -->
+              <mat-form-field class="example-full-width" appearance="fill">
+                  <input id="pincode" type="number" matInput placeholder="Enter PinCode" formControlName="pincode">
+              </mat-form-field>
+          </div></div><br>
+        <button mat-raised-button type="submit" color="primary" [disabled]="RegistryForm.invalid">Register</button>
+    </form></div>
+    
