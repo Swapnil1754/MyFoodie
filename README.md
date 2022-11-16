@@ -1,5 +1,13 @@
 <h1 align="center">Hi 👋, This is my Foodie App</h1>
 <h3 align="center">Here is some Highlights of My Application with features</h3>
+<h2 align="center">**Registration in Page**</h2>
+<img src="https://user-images.githubusercontent.com/86115714/202229336-f0e97f2c-401f-4c69-a413-2699a7135e27.png" alt=""/>
+<h3>Key Features :</h3>
+<ul>
+  <li>Email Notification of new User</li>
+  <li>Validations to required fields</li>
+</ul>
+<hr>
 <h2 align="center">**Log in Page**</h2>
 <img src="https://user-images.githubusercontent.com/86115714/202223741-a8eec7b1-2d70-452b-a00e-9390d5a7a9b4.png" alt="" />
 <h3>Key Features :</h3>
