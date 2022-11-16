@@ -1,6 +1,13 @@
-<h1 align="center">Hi 👋, I'm Swapnil Sutar</h1>
-<h3 align="center">A passionate Full stack developer from India</h3>
-
+<h1 align="center">Hi 👋, This is my Foodie App</h1>
+<h3 align="center">Here is some Highlights of My Application with features</h3>
+<h2 align="center">**Log in Page**</h2>
+<img src="https://user-images.githubusercontent.com/86115714/202223741-a8eec7b1-2d70-452b-a00e-9390d5a7a9b4.png" alt="" />
+<h3>Key Features :</h3>
+<ul>
+  <li>Facebook Login</li>
+  <li>Forget Password</li>
+  <li>Smooth Functionality</li>
+</ul>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=swapnil1754&label=Profile%20views&color=0e75b6&style=flat" alt="swapnil1754" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=swapnil1754" alt="swapnil1754" /></a> </p>
@@ -12,7 +19,7 @@
 - 👨‍💻 All of my projects are available at [https://github.com/Swapnil1754](https://github.com/Swapnil1754)
 
 - 📫 How to reach me **swapnilsutar2010@gmail.com**
-<img src="![Picture1](https://user-images.githubusercontent.com/86115714/202223741-a8eec7b1-2d70-452b-a00e-9390d5a7a9b4.png)" alt="" />
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/swapnil sutar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="swapnil sutar" height="30" width="40" /></a>
