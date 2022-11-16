@@ -1,11 +1,39 @@
 <h1 align="center">Hi 👋, This is my Foodie App</h1>
-<h3 align="center">Here is some Highlights of My Application with features</h3>
-<h2 align="center">**Registration in Page**</h2>
-<img src="https://user-images.githubusercontent.com/86115714/202229336-f0e97f2c-401f-4c69-a413-2699a7135e27.png" alt=""/>
+<h3 align="center">Here is some Highlights of My Application with Key Features</h3>
+<h2 align="center">**Dynamic Search Engine**</h2>
+<img src="https://user-images.githubusercontent.com/86115714/202242119-50aa1626-0333-4e53-8ae0-b67c3477ddc1.png" alt=""/>
 <h3>Key Features :</h3>
 <ul>
-  <li>Email Notification of new User</li>
-  <li>Validations to required fields</li>
+  <li>Search Any Restaurant Dynamically just by entering initial words</li>
+  <li>Choose Restaurant from Searched list</li>
+  <li>Smooth Functionality</li>
+</ul>
+<hr>
+<h2 align="center">**Restaurant Page**</h2>
+<img src="https://user-images.githubusercontent.com/86115714/202244199-0709247d-45e4-48b3-ba24-205f206cff5b.png" alt=""/>
+<h3>Key Features :</h3>
+<ul>
+  <li>Choose Menu to Place Order</li>
+  <li>Total Cost display</li>
+  <li>Add Restaurant to favorite List</li>
+</ul>
+<hr>
+<h2 align="center">**Payment Page**</h2>
+<img src="https://user-images.githubusercontent.com/86115714/202245517-99898bf5-ca49-46ec-a6fe-5d8983ce2465.png" alt=""/>
+<h3>Key Features :</h3>
+<ul>
+  <li>Multiple Payment Options</li>
+  <li>Place Order</li>
+  <li>Cancle Order</li>
+  <li>Change Menu Before Place Order</li>
+  <li>Auto Bill generation</li>
+</ul>
+<hr>
+<h2 align="center">**Edit Your Personal Details**</h2>
+<img src="https://user-images.githubusercontent.com/86115714/202247473-3e5b388d-13f3-48d0-b694-2b066e3a0342.png" alt=""/>
+<h3>Key Features :</h3>
+<ul>
+  <li>Update Personal Details </li>
 </ul>
 <hr>
 <h2 align="center">**Log in Page**</h2>
@@ -16,6 +44,16 @@
   <li>Forget Password</li>
   <li>Smooth Functionality</li>
 </ul>
+<hr>
+<h2 align="center">**Registration in Page**</h2>
+<img src="https://user-images.githubusercontent.com/86115714/202229336-f0e97f2c-401f-4c69-a413-2699a7135e27.png" alt=""/>
+<h3>Key Features :</h3>
+<ul>
+  <li>Email Notification of new User</li>
+  <li>Validations to required fields</li>
+</ul>
+<hr>
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=swapnil1754&label=Profile%20views&color=0e75b6&style=flat" alt="swapnil1754" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=swapnil1754" alt="swapnil1754" /></a> </p>
