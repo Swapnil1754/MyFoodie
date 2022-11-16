@@ -36,6 +36,14 @@
   <li>Update Personal Details </li>
 </ul>
 <hr>
+<h2 align="center">**Add New Restaurant**</h2>
+<img src="https://user-images.githubusercontent.com/86115714/202249665-933c15ae-cece-486f-80b2-c7c357842340.png" alt=""/>
+<h3>Key Features :</h3>
+<ul>
+  <li><strong>Restaurant Owner Can Add New Restaurant</strong></li>
+  <li>Restaurant Owner Can Update Menu's and Other Details</li>
+</ul>
+<hr>
 <h2 align="center">**Log in Page**</h2>
 <img src="https://user-images.githubusercontent.com/86115714/202223741-a8eec7b1-2d70-452b-a00e-9390d5a7a9b4.png" alt="" />
 <h3>Key Features :</h3>
